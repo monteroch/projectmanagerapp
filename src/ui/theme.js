@@ -136,5 +136,18 @@ export default createMuiTheme({
 				},
 			},
 		},
+		MuiTableSortLabel: {
+			root: {
+				"&:hover": {
+					color: arcOrange
+				},
+				"&.MuiTableSortLabel-active": {
+					color: arcOrange
+				}
+			},
+			icon: {
+				fill: arcOrange
+			}
+		}
 	},
 });
